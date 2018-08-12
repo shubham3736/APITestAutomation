@@ -1,5 +1,4 @@
-
-	package options;
+package options;
 
 import org.junit.runner.RunWith;
 
@@ -11,4 +10,4 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty"},
 		glue = {"stepdefs"},
 		features = {"src/test/features"})
-public class CucumberTests 
+public class CucumberTests {}
